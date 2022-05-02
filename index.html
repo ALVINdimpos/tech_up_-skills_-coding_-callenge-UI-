@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=50, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .text-line {
-    background-color: transparent;
-    color: #eeeeee;
-    outline: none;
-    outline-style: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid #eeeeee 1px;
-    padding: 3px 10px;
-}
-    </style>
+  <meta charset="UTF-8">
+  <title>form</title>
+  <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-    <form action="">
-       <p> <input type="text" class="text-line" value="First name" />
-        <input type="text" class="text-line" value="Second name" /></p>
-        <p>Briefly tell us your project and your current goal. <br>How can we help you?</p>
-        <p><input type="text" class="text-line" value="Email" /></p>
-        <p><textarea name="" id="" cols="30" rows="10" class="text-line"></textarea></p>
-    </form>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<main>
+  <div class="headline">
+  </div>
+  <form>
+    <h1>Fill the form. <br>It's easy.</h1>
+    <span>
+      <label for="username" class="text-small-uppercase">First name</label>
+      <input class="text-body" id="username" name="username" type="text" required>
+    </span>
+    <span>
+      <label for="username" class="text-small-uppercase">Last name</label>
+      <input class="text-body" id="username" name="username" type="text" required>
+    </span>
+    <span>
+      <label for="email" class="text-small-uppercase">Email</label>
+      <input class="text-body" id="email" name="email" type="email"required>
+    </span>
+    <p>Briefly tell us your project and your current goal. <br>How can we help you?</p>
+    <span>
+      <label for="city" class="text-small-uppercase"></label>
+      <input class="text-body" id="city" name="city" type="text" required>
+    </span>
     
+  </form>
+  <input class="text-small-uppercase" id="submit" type="submit" value="Send message">
+  <div style="text-align: center;margin-top: 30%;">
+    <h1>Need presantion</h1>
+    <p>You like what we do,but you need to demonstrate you team as well .Easy! Direct download ,print or share the link to a PDF with your colleagues. <br><br>
+    company profile.pdf((32 mb.)</p>
+  </div>
+</main>
+
 </body>
 </html>
